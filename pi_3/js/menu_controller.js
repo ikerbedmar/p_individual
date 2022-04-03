@@ -5,6 +5,7 @@ function start_game(){
 
 function exit (){
 	loadpage("../index.html");
+}
 function options(){
 	loadpage("./html/options.html");
 }
