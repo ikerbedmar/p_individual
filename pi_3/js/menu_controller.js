@@ -7,7 +7,7 @@ function start_game(){
 }
 
 function exit (){
-	loadpage("../index.html");
+	loadpage("../../index.html");
 }
 
 function options(){
