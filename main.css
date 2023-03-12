@@ -1,0 +1,41 @@
+#title{
+	font-size: 26px;
+	line-height: 75px;
+}
+
+body{
+	background-color: aquamarine;
+}
+
+.menu-object{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 75px;
+	font-size: 16px;
+	margin-top: 10px;
+	
+}
+
+p{
+	text-align: center;
+}
+
+button.menu-object{
+	background-color: cornflowerblue;
+}
+
+button.menu-object:active{
+	font-size: 18px;
+	width: 275px;
+	height: 70px;
+	background-color:blue;
+}
+
+button.menu-object:hover:not(:active){
+	font-size: 22px;
+	width: 325px;
+	height: 85px;
+	background-color: aqua;
+}
