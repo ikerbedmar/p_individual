@@ -1,0 +1,52 @@
+#title{
+	font-size: 26px;
+	line-height: 75px;
+}
+
+body{
+	background-color: aquamarine;
+}
+
+.menu-object{
+	display:grid;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+	grid-auto-columns: auto;
+	justify-content:center ;
+	align-content: center;
+	width: 30rem;
+	height: 7.5rem;
+	font-size: 1.6rem;
+	margin-top: 1.0rem;
+	
+}
+
+p{
+	text-align: center;
+}
+
+button.menu-object{
+	background-color: cornflowerblue;
+	display:grid;
+	align-items: center;
+	align-self: center;
+	justify-content: center;
+	grid-auto-columns: auto;
+	justify-content:center ;
+	align-content: center;
+}
+
+button.menu-object:active{
+	font-size: 1.8rem;
+	width: 27.5rem;
+	height: 7rem;
+	background-color:blue;
+}
+
+button.menu-object:hover:not(:active){
+	font-size: 2.2rem;
+	width: 32.5rem;
+	height: 8.5rem;
+	background-color: aqua;
+}
