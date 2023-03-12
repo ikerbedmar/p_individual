@@ -4,7 +4,7 @@ function start_game(){
 }
 
 function exit (){
-	loadpage("../../")
+	loadpage("../")
 }
 
 function options(){
